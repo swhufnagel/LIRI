@@ -3,9 +3,10 @@ var fs = require('file-system');
 var keys = require("./key.js");
 var Spotify = require('node-spotify-api');
 var axios = require("axios");
+var moment = require("moment");
 var spotify = new Spotify(keys.spotify);
 var arguments = process.argv;
-
+var reponseExists = false;
 function searchSong() {
   if (process.argv.length === 3) {
     query = "Ace The Sign"
@@ -62,15 +63,15 @@ function searchConcert(){
   }
   axios.get("https://rest.bandsintown.com/artists/" + artist + "/events?app_id=codingbootcamp").then(
     function (response, err) {
+      reponseExists = true;
       for (i = 0; i < response.data.length; i++) {
-        console.log(response.data[i].datetime)
+        console.log(moment(response.data[i].datetime).format("ll"));
         console.log(response.data[i].venue.name)
         console.log(response.data[i].venue.city + ", " + response.data[i].venue.region + "\n")
-
         fs.appendFile("log.txt", 
-    "Date: " + response.data[i].datetime + "\n"
+    "Date: " + moment(response.data[i].datetime).format("ll") + "\n"
     + "Venue: " + response.data[i].venue.name + "\n"
-    +  "Location: " + response.data[i].venue.city + "\n" 
+    +  "Location: " + response.data[i].venue.city + "\n----------------------------------------------------\n" 
     , function(err){});
       }
       if (err) {
@@ -81,6 +82,9 @@ function searchConcert(){
 if (arguments[2] === "movie-this") {
   var movie = arguments.slice(3);
   searchMovie();
+  if(responseExists === false){
+    console.log("empty");
+  }
 }
 
 if (arguments[2] === "concert-this") {

@@ -1,48 +1,96 @@
-Artist: Ace of Base
-Track: The Sign
-Link: https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=f21a336f63b44b1599f5c23101176de8
-Album: The Sign (US Album) [Remastered]
-Title: Mr. Nobody
-Year: 2009
-IMDB Rating: 7.8/10
-Rotten Tomatoes Rating: 67%
-Country: Belgium, Germany, Canada, France, USA, UK
-Language: English, Mohawk
-Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
-Cast: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
-Date: 2019-05-26T19:00:56
+Date: May 26, 2019
 Venue: StrangeCreek Campout
 Location: Greenfield
-Date: 2019-05-31T19:00:50
+----------------------------------------------------
+Date: May 31, 2019
 Venue: Branch Fest
 Location: Newport
-Date: 2019-06-13T12:00:00
+----------------------------------------------------
+Date: Jun 13, 2019
 Venue: Bethel Woods Center For the Arts
 Location: Bethel
-Date: 2019-06-15T19:00:31
+----------------------------------------------------
+Date: Jun 15, 2019
 Venue: Garden Grove Music Festival
 Location: East Providence
-Date: 2019-06-27T17:00:00
+----------------------------------------------------
+Date: Jun 27, 2019
 Venue: Martin Luther King Jr Memorial Park at Manhattan Square
 Location: Rochester
-Date: 2019-06-28T17:00:00
+----------------------------------------------------
+Date: Jun 28, 2019
 Venue: Canalside
 Location: Buffalo
-Date: 2019-06-29T19:00:25
+----------------------------------------------------
+Date: Jun 29, 2019
 Venue: Electric Forest Festival
 Location: Rothbury
-Date: 2019-07-19T19:00:52
+----------------------------------------------------
+Date: Jul 19, 2019
 Venue: Camp Bisco
 Location: Pa
-Date: 2019-07-26T15:00:17
+----------------------------------------------------
+Date: Jul 26, 2019
 Venue: Tumble Down Festival
 Location: Burlington
-Date: 2019-07-27T15:00:00
+----------------------------------------------------
+Date: Jul 27, 2019
 Venue: Tumble Down Festival
 Location: Burlington
-Date: 2019-08-24T19:00:14
+----------------------------------------------------
+Date: Aug 24, 2019
 Venue: LOCKN' Festival
 Location: Arrington
-Date: 2019-08-25T19:00:12
+----------------------------------------------------
+Date: Aug 25, 2019
 Venue: Reggae Rise Up Utah
 Location: Heber City
+----------------------------------------------------
+Date: May 26, 2019
+Venue: StrangeCreek Campout
+Location: Greenfield
+----------------------------------------------------
+Date: May 31, 2019
+Venue: Branch Fest
+Location: Newport
+----------------------------------------------------
+Date: Jun 13, 2019
+Venue: Bethel Woods Center For the Arts
+Location: Bethel
+----------------------------------------------------
+Date: Jun 15, 2019
+Venue: Garden Grove Music Festival
+Location: East Providence
+----------------------------------------------------
+Date: Jun 27, 2019
+Venue: Martin Luther King Jr Memorial Park at Manhattan Square
+Location: Rochester
+----------------------------------------------------
+Date: Jun 28, 2019
+Venue: Canalside
+Location: Buffalo
+----------------------------------------------------
+Date: Jun 29, 2019
+Venue: Electric Forest Festival
+Location: Rothbury
+----------------------------------------------------
+Date: Jul 19, 2019
+Venue: Camp Bisco
+Location: Pa
+----------------------------------------------------
+Date: Jul 26, 2019
+Venue: Tumble Down Festival
+Location: Burlington
+----------------------------------------------------
+Date: Jul 27, 2019
+Venue: Tumble Down Festival
+Location: Burlington
+----------------------------------------------------
+Date: Aug 24, 2019
+Venue: LOCKN' Festival
+Location: Arrington
+----------------------------------------------------
+Date: Aug 25, 2019
+Venue: Reggae Rise Up Utah
+Location: Heber City
+----------------------------------------------------
