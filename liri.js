@@ -6,7 +6,7 @@ var axios = require("axios");
 var moment = require("moment");
 var spotify = new Spotify(keys.spotify);
 var arguments = process.argv;
-var reponseExists = false;
+var responseExists = false;
 function searchSong() {
   if (process.argv.length === 3) {
     query = "Ace The Sign"
@@ -32,6 +32,10 @@ function searchMovie(){
     }
     axios.get("http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy").then(
       function (response) {
+        if(response.data.Response === 'False'){
+          console.log("No movie found");
+        }
+        else{
         console.log("Title: " + response.data.Title);
         console.log("Year: " + response.data.Year);
         console.log("IMDB Rating: " + response.data.Ratings[0].Value);
@@ -40,7 +44,6 @@ function searchMovie(){
         console.log("Language: " + response.data.Language);
         console.log("Plot: " + response.data.Plot);
         console.log("Cast: " + response.data.Actors);
-
         fs.appendFile("log.txt", 
         "Title: " + response.data.Title + "\n"
         + "Year: " + response.data.Year + "\n"
@@ -50,8 +53,9 @@ function searchMovie(){
         + "Language: " + response.data.Language + "\n"
         + "Plot: " + response.data.Plot + "\n"
         + "Cast: " + response.data.Actors + "\n"
-    , function(err){});
+        , function(err){});
       }
+    }
     );
   }
 function searchConcert(){
@@ -82,9 +86,6 @@ function searchConcert(){
 if (arguments[2] === "movie-this") {
   var movie = arguments.slice(3);
   searchMovie();
-  if(responseExists === false){
-    console.log("empty");
-  }
 }
 
 if (arguments[2] === "concert-this") {
